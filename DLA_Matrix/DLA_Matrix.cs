@@ -41,14 +41,14 @@ namespace DLA_Matrix
 
         private Point[,] InitializeMatrix()
         {
-            center = matrixSize / 2;
+            center = (matrixSize / 2) - 1;
             Point[,] newMatrix = new Point[matrixSize, matrixSize];
             for (int i = 0; i < matrixSize; i++)
                 for (int j = 0; j < matrixSize; j++)
                     newMatrix[i, j] = new Point(i, j);
 
             // Seed with initial point and add it to the aggregated list
-            var startingPoint = matrix[center, center];
+            var startingPoint = newMatrix[center, center];
             startingPoint.IsAggregated = true;
             aggregatedPoints.Add(startingPoint);
 
@@ -152,8 +152,8 @@ namespace DLA_Matrix
         /// </summary>
         private void RandomWalkAndAggregate()
         {
-            (int x, int y) = GetRandomStartingEdgePosition();
-
+            //(int x, int y) = GetRandomStartingEdgePosition();
+            (int x, int y) = (random.Next(0, matrixSize),random.Next(0, matrixSize));
             while (true)
             {
                 if (IsAdjacentToAggregate(x, y, out Point? parent))

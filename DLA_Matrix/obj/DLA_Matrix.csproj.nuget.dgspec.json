@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rectf\\Desktop\\CSProjects\\DLA_Matrix_1.0\\DLA_Matrix.csproj": {}
+    "C:\\Users\\rectf\\Documents\\repos\\HeightMapGenerator_DLABased\\DLA_Matrix\\DLA_Matrix.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rectf\\Desktop\\CSProjects\\DLA_Matrix_1.0\\DLA_Matrix.csproj": {
+    "C:\\Users\\rectf\\Documents\\repos\\HeightMapGenerator_DLABased\\DLA_Matrix\\DLA_Matrix.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rectf\\Desktop\\CSProjects\\DLA_Matrix_1.0\\DLA_Matrix.csproj",
+        "projectUniqueName": "C:\\Users\\rectf\\Documents\\repos\\HeightMapGenerator_DLABased\\DLA_Matrix\\DLA_Matrix.csproj",
         "projectName": "DLA_Matrix",
-        "projectPath": "C:\\Users\\rectf\\Desktop\\CSProjects\\DLA_Matrix_1.0\\DLA_Matrix.csproj",
+        "projectPath": "C:\\Users\\rectf\\Documents\\repos\\HeightMapGenerator_DLABased\\DLA_Matrix\\DLA_Matrix.csproj",
         "packagesPath": "C:\\Users\\rectf\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rectf\\Desktop\\CSProjects\\DLA_Matrix_1.0\\obj\\",
+        "outputPath": "C:\\Users\\rectf\\Documents\\repos\\HeightMapGenerator_DLABased\\DLA_Matrix\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\rectf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,7 +43,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -66,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
